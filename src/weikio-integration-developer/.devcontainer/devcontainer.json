@@ -1,0 +1,13 @@
+{
+    "name": "Weik.io Integration Development Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "camel-karavan.karavan",
+        "redhat.vscode-apache-camel"
+    ]
+}

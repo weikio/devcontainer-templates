@@ -1,0 +1,13 @@
+{
+    "id": "weikio-integration-developer",
+    "version": "1.0.0",
+    "name": "Weik.io Integration Developer",
+    "description": "A template for architects and developers building integrations using Weik.io platform",
+    "documentationURL": "",
+    "licenseURL": "https://github.com/weikio/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+    },
+    "platforms": [
+        "Any"
+    ]
+}
