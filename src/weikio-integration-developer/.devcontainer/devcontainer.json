@@ -1,5 +1,5 @@
 {
-    "name": "Weik.io Integration Development Container",
+    "name": "Weik.io Integration Dev Container",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspace",

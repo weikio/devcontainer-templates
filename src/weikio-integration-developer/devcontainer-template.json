@@ -1,6 +1,6 @@
 {
     "id": "weikio-integration-developer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Weik.io Integration Developer",
     "description": "A template for architects and developers building integrations using Weik.io platform",
     "documentationURL": "",

@@ -2,7 +2,7 @@
 
 > This repo provides Dev Container templates to help with the usage of Weik.io Integration Platform.
 
-## Repo and Template Structure
+## Repo Structure
 
 This repository contains a single template: integrationdev
 
