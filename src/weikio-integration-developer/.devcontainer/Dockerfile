@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0
+FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 RUN apt-get update && \
         apt-get install -y curl unzip && \
@@ -27,7 +27,7 @@ SHELL ["/bin/bash", "--login", "-c"]
 
 RUN nats context add nats --server nats:4222 --select
 
-RUN dotnet tool install weikio-cli --global --prerelease
+RUN dotnet tool install weikio-cli --global --version 2024.1.0-preview.37
 
 SHELL ["/bin/bash", "--login", "-c"]
 
