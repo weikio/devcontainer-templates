@@ -1,7 +1,7 @@
 
 # Weik.io Integration Developer (weikio-integration-developer)
 
-The whole Weik.io 2026.2.1 platform in one container, with the Weik.io CLI signed in, for building Camel integrations in your own project
+The whole Weik.io 2026.2.2 platform in one container, with the Weik.io CLI signed in, for building Camel integrations in your own project
 
 ## Options
 
