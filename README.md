@@ -1,10 +1,10 @@
-# Weik.io Dev Container Templates
+# Weik.io dev container templates
 
 Dev Container templates for the Weik.io integration platform.
 
 ## Templates
 
-- `weikio-integration-developer` adds a container to your own project that runs the whole Weik.io platform, with the `weikio` CLI signed in. Use it to build Camel integrations in your repository. To try Weik.io without a project, use https://github.com/weikio/try-weikio, which holds the same container.
+- `weikio-integration-developer` adds a container to your own project that runs the whole Weik.io platform, with the `weikio` CLI signed in. Use it to build Camel integrations in your repository. To try Weik.io without a project, use https://github.com/weikio/try-weikio, which has the same container.
 
 In Visual Studio Code, run **Dev Containers: Add Dev Container Configuration Files** and pick the template. From the command line:
 
