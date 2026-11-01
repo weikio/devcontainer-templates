@@ -2,7 +2,7 @@
     "id": "weikio-integration-developer",
     "version": "2.0.0",
     "name": "Weik.io Integration Developer",
-    "description": "The whole Weik.io 2026.2.1 platform in one container, with the weikio CLI signed in, for building Camel integrations in your own project",
+    "description": "The whole Weik.io 2026.2.1 platform in one container, with the Weik.io CLI signed in, for building Camel integrations in your own project",
     "documentationURL": "https://weik.io/docs/start/try-on-your-machine",
     "licenseURL": "https://github.com/weikio/devcontainer-templates/blob/main/LICENSE",
     "options": {},
