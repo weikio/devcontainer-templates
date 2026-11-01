@@ -1,13 +1,13 @@
 #!/bin/bash
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
-check "camel-version" camel --version
-check "jbang-version" jbang --version
-check "rclone-version" rclone --version
-check "nats-version" nats --version
+check "weikio-version" weikio version
+check "platform-status" weikio-dev status
+check "signed-in" weikio whoami
+check "agent-online" bash -c "weikio get agents --env devtest | grep -E '^dev .*online'"
+check "smoke-test" bash /usr/local/share/weikio-dev/smoke.sh "$PWD"
 
 # Report result
 reportResults
